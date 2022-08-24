@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="E2E"  thread-count="2" parallel="methods">
+<suite name="E2E"  >
     <test name="Regression"  >
         <classes>
-            <class name="tests.pom.tests.TestCase" />
+            <class name="tests.pom.tests.TestCases" />
         </classes>
     </test>
 </suite>
