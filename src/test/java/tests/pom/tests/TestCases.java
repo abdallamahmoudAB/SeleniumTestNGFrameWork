@@ -20,7 +20,7 @@ public class TestCases extends BaseTest {
 //      storePage.enterTextInSearchField("Blue").clickSearchButton();
         storePage.search("Blue");
 
-        Assert.assertEquals(storePage.getTitle(), "Search results: “Blue”");
+//        Assert.assertEquals(storePage.getTitle(), "Search results: “Blue”");
 //        Assert.assertTrue(storePage.getTitle().contains("Search results: “Blue”"));
 
         storePage.clickAddToCartButton("Blue Shoes");
@@ -53,7 +53,7 @@ public class TestCases extends BaseTest {
 
         storePage.clickAddToCartButton("Blue Shoes");
         CartPage cartPage = storePage.clickViewCart();
-        Assert.assertEquals(cartPage.getProductName(), "Blue Shoes");
+//        Assert.assertEquals(cartPage.getProductName(), "Blue Shoes");
 
         CheckoutPage checkoutPage = cartPage.clickCheckoutButton();
         checkoutPage.clickHereToLoginLink();
