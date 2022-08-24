@@ -1,5 +1,5 @@
 # SeleniumTestNGFrameWork
-SeleniumFrameWork With Maven TestNG
+SeleniumFrameWork With Maven & TestNG
 
 ## Tools & Setup:
 - IntelliJ
@@ -11,6 +11,7 @@ SeleniumFrameWork With Maven TestNG
 - Config Properites
 - Screenshots
 - Allure Report
+- Jenkins
 
 ## Core Features:
 -  Page Object Model Design Pattern
